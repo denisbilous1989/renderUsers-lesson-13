@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+}
+
+b {
+  color: brown;
+}
+
+.cards {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cards-item {
+  width: 30%;
+  padding: 10px 5px;
+  margin: 0 0 20px 0;
+  text-align: left;
+  background-color: grey;
+  border: 2px solid brown;
+  border-radius: 10px;
+}
+
+.card {
+  font-size: 14px;
+}
+
+.card__email {
+  font-size: 12px;
+}
+
+.card__address {
+  color: brown;
+}
